@@ -21,7 +21,7 @@ const ProductList = () => {
   }, []);
 
   const handleView = (id) => {
-    navigate(`/product/${id}`); // Navigate to the product detail page
+    navigate(`/product/${id}`); 
   };
 
   return (
