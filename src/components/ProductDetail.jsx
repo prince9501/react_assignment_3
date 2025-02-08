@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import "../App.css";
 
 const ProductDetail = () => {
-  const { id } = useParams(); // Get the product ID from the URL
+  const { id } = useParams(); 
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
